@@ -1,0 +1,49 @@
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore Hardhat artifacts and cache
+artifacts/
+cache/
+deployments/
+coverage/
+
+# Ignore Hardhat specific files
+*.tsbuildinfo
+hardhat.config.ts.backup
+
+# Ignore compiled contracts
+*.sol.json
+
+# Ignore local blockchain data
+*.db
+*.log
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore MetaMask and other wallet secrets
+keystore/
+
+# Ignore compiled TypeScript files
+*.js
+*.map
+
+# Ignore test outputs
+coverage/
+
+# Ignore any local development files
+*.DS_Store
+*.swp
+
+# Ignore logs
+logs/
+*.log
